@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    .sPace {
+      position: relative;
+      left: 20px;
+    }
+
+    .Intro {
+      text-align: center;
+      padding-left: 260px;
+      padding-right: 260px;
+      font-size: 60px;
+    
+
+      body {
+        background-color: pink;
+      }
+
+      .heading {
+        width: 80px;
+        margin-top: 50px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .carousel-inner {
+        width: 40vw;
+        margin-top: 10vw;
+      }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #6a5acd ; ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="" style="margin-left: 50px; font-size: 25px;">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " aria-current="page" href="#about" style="font-size: 22px;"><i
+              class="fa-solid fa-house"></i>About</a>
+          <a class="nav-link " aria-current="page" href="#academics" style="font-size: 22px;"><i
+              class="fa-solid fa-book-open"></i>Academics</a>
+          <a class="nav-link" href="#technical_skills" style="font-size: 22px;"><i
+              class="fa-solid fa-gear"></i>Technical Skills</a>
+          <a class="nav-link" href="#projects" style="font-size: 22px;"><i
+              class="fa-solid fa-diagram-project"></i>Projects</a>
+          <a class="nav-link" href="#achivements" style="font-size: 22px;"><i
+              class="fa-solid fa-trophy"></i>Achievements</a>
+          <a class="nav-link" href="#contact_me" style="font-size: 22px;"><i class="fa-solid fa-envelope"></i>Contact
+            me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div id="about" style="display: inline-flexbox; height: 100px; margin-top: 50px;">
+      <div style="height: inherit;">
+        <img
+          src="https://imgs.search.brave.com/HYWzW_u62rwqcCiSeS0ZXFOm48DScY8Z70UIusbvOyg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAzLzMyLzU5LzY1/LzM2MF9GXzMzMjU5/NjUzNV9sQWRMaGY2/S3piVzZQV1hCV2VJ/RlRvdlRpaTFkcmti/VC5qcGc"
+          class="rounded float-start" alt="Profile" style="margin-left: 50px; display: inline;">
+      </div>
+      <div style="height: inherit;">
+        <h1 style="display: inline; left: 400px; top: 200px; text-align: center;">Sarah Smith</h1>
+      </div>
+    </div>
+  </section>
+  <div style="padding-top: 300px;">
+    <p style="font-size: 40px;">About Me</p>
+    <p style="font-size: 30px; padding-left: 20px;">Enthusiastic and dedicated web developer with a passion for creating interactive and user-friendly websites. Adept at combining strong technical skills with a keen eye for design to develop responsive and visually appealing web applications. Committed to staying up-to-date with the latest web development technologies.</p>
+    <br><br><br><br>
+  </div>
+  <div id="academics">
+    <p style="font-size: 40px;">Academics</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Course</th>
+          <th scope="col">University Name</th>
+          <th scope="col">Year</th>
+          <th scope="col">CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Matriculation</td>
+          <td>Florida State College</td>
+          <td>2012</td>
+          <td>9.8</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Bachelor of Science in Computer Science</td>
+          <td>Case western</td>
+          <td>2016</td>
+          <td>9.1</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Master of Science in Web Development</td>
+          <td>Harvard University</td>
+          <td>2018</td>
+          <td>8.5</td>
+      </tbody>
+    </table>
+  </div>
+  <div id="technical_skills" style="size: 500px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="TechnicalSkills" class="h">
+            <br><br><br><br>
+            <h3>Technical Skills</h3>
+            <br>
+            <h5>Programming languages</h5>
+            <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+            </ul>
+            <br>
+            <h5>Databases</h5>
+            <ul>
+              <li>SQL</li>
+              <li>MongoDB</li>
+            </ul>
+            <br>
+            <h5>Web Technologies</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="projects">
+        <br><br><br><br>
+        <p style="font-size: 40px;">Projects</p>
+        <div class="card text-bg-primary mb-3" style="max-width: rem; ">
+          <div class="card-header">E-commerce Website (2022)
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            <ul>
+              <li>Developed a responsive e-commerce website using React, Node.js, and MongoDB.</li>
+              <li>Implemented user authentication, product catalog, shopping cart, and payment processing. </li>
+              <li>Enhanced performance through lazy loading and image optimization.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-primary mb-3" style="max-width: rem;">
+          <div class="card-header">Portfolio Website (2021)</div>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            <ul>
+              <li>Created a personal portfolio website to showcase projects and skills.</li>
+              <li>Designed a user-friendly interface with smooth animations using CSS and JavaScript.
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-primary mb-3" style="max-width: rem;">
+          <div class="card-header">Blog Platform (2020)          </div>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+              <ul>
+                <li>Designed and developed a content management system for bloggers using WordPress.
+                </li>
+                <li>Customized themes and plugins to improve functionality and user experience.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="card text-bg-primary mb-3" style="max-width: rem;">
+          <div class="card-header">Weather App (2019)
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+              <ul>
+                <li>Built a weather forecasting web application using the OpenWeatherMap API and vanilla JavaScript.
+                </li>
+                <li>Provided real-time weather updates for users based on their location.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://imgs.search.brave.com/GiyUcgBVQR3BEC2og2srR_p_hW_bAmbYKLFKZ-zNxoc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/Mjc3ODA0L3Bob3Rv/L3Bob3RvLW9mLWxh/a2UtaW4ta2FuZHkt/c3JpLWxhbmthLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1D/bktIMElYMXZkRmY3/OXdXUTlYVzZUY0Q4/c3JnN0QtbzZlQ2dq/WnVIdnh3PQ" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://imgs.search.brave.com/GiyUcgBVQR3BEC2og2srR_p_hW_bAmbYKLFKZ-zNxoc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/Mjc3ODA0L3Bob3Rv/L3Bob3RvLW9mLWxh/a2UtaW4ta2FuZHkt/c3JpLWxhbmthLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1D/bktIMElYMXZkRmY3/OXdXUTlYVzZUY0Q4/c3JnN0QtbzZlQ2dq/WnVIdnh3PQ" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <div id="contact_me" style="text-align: center; margin-bottom: 1000px;">
+        <p style="font-size: 40px;">Contact Me</p>
+        <a href="mailto:jgfhgjh" style="font-size: 40px; text-align: center;">sarasmith@gmail.com</a>
+      </div>
+
+</body>
+
+</html>
