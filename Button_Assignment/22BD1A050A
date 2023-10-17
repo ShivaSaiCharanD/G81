@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click for Table</title>
+    <style>
+        #button {
+            font-size: 20px;
+        
+        }
+        .table1{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Click Me</button>
+    <script>
+        const button = document.querySelector("#button");
+        button.addEventListener("click", printTable);
+        let table_data = {
+            "Name": "Shiva Sai Charan Dodda",
+            "Age": 18,
+            "Education": "B.TECH"
+        };
+
+        function printTable() {
+            const table = document.createElement("table");
+            let head1=document.createElement("th")
+            let head2=document.createElement("th")
+            head1.textContent="Detail"
+            head2.textContent="Answer"
+            table.appendChild(head1)
+            table.appendChild(head2)
+            for (let key in table_data) {
+                let trow = document.createElement("tr");
+                let tdata1 = document.createElement("td");
+                tdata1.textContent = key;
+                trow.appendChild(tdata1);
+                let tdata2 = document.createElement("td");
+                tdata2.textContent = table_data[key];
+                trow.appendChild(tdata2);
+                table.appendChild(trow);
+            }
+            table.className="table1"
+            document.body.appendChild(table); 
+        }
+    </script>
+</body>
+</html>
