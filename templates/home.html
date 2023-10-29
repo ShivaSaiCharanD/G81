@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+    <h2>Want to check your tire???</h2>
+    <h3>Upload your image here!!!</h3>
+    <form action="{{url_for('index')}}" method="POST">
+        <label for="image">Upload Your Image Here</label>
+        <input type="file" id="image" name="image">
+        <input type="submit" value="Check">
+    </form>
+</div>
+{% endblock content %}
