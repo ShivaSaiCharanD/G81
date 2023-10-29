@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(244, 240, 240);
+            padding: 2%;
+
+        }
+
+        label,
+        #upload {
+            color: rgb(8, 8, 8);
+        }
+
+        form {
+            border: 2px solid rgb(14, 14, 14);
+            margin-top: 7vw;
+            margin-bottom: 0vw;
+            margin-right: 30vw;
+            margin-left: 30vw;
+            padding: 2%;
+        }
+
+        div {
+            margin-top: 1%;
+            margin-left: 16%;
+        }
+
+        #VehicleUser,
+        #VehicleNumber {
+            color: rgb(255, 255, 255);
+        }
+
+        .darkmode label,
+        .darkmode input {
+            color: white;
+        }
+
+        .darkmode form {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" id="darkupload" class="btn btn-dark" onclick="toggleupload()">DARK MODE</button>
+
+    <form>
+        <div id="upload">
+            <h1>Upload the data</h1>
+        </div>
+        <div class="col-md-8">
+            <label for="VehicleUser" class="form-label">VehicleUser</label>
+            <input type="text" class="form-control bg-secondary" id="VehicleUser" placeholder="name">
+        </div>
+        <div class="col-md-6">
+            <label for="VehicleNumber" class="form-label">VehicleNumber</label>
+            <input type="text" class="form-control bg-secondary" id="VehicleNumber" placeholder="Ex:MP 10 QR 4354">
+        </div>
+        <div class="image col-9">
+            <label for="TyreImage" class="form-label">Upload Tyre :</label>
+            <input type="file" name="tyre" id="Tyreimage">
+
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+    </form>
+    <script>
+        function toggleupload() {
+
+            var element=document.body;
+            uploadbutton = document.getElementById("darkupload");
+            if (element.classList.toggle("darkmode")) {
+                uploadbutton.innerText = "LIGHT MODE";
+                uploadbutton.style.background = "rgb(27, 120, 202)";
+                uploadbutton.style.color = "black";
+                document.querySelector("body").style.background = "rgb(36, 34, 34)";
+                document.getElementById("upload").style.color = "white";
+
+
+            }
+            else {
+                uploadbutton.innerText = "DARK MODE";
+                uploadbutton.style.background = "black";
+                uploadbutton.style.color = "white";
+                document.querySelector("body").style.background = "white";
+                document.getElementById("upload").style.color = "black";
+
+            }
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
