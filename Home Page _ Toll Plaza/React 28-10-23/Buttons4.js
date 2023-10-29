@@ -9,7 +9,8 @@ export default function Buttons4(){
             <span id='b1'>&gt;</span>
         </button>
         <button type="button" id="button2" class="btn btn-dark">
-            <span >CHECK RECORDS  <span id='b2'>&gt;</span></span>
+            <span >CHECK RECORDS</span>
+            <span id='b2'>&gt;</span>
            
         </button>
     </div>
