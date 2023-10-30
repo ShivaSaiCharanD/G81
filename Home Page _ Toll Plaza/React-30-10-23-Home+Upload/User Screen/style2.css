@@ -1,0 +1,44 @@
+body {
+    background-image: url('Untitled (1).png');
+    background-size: cover;
+}   
+.home p{
+    color: black;
+    font-family: 'street_credregular';
+    font-size: 7vw;
+    margin-top: 7vw;
+    margin-left: 6vw;
+}
+
+.home #button1{
+    font-family: "Poppins";
+    color: rgb(253, 252, 252);
+    width: 17vw;
+    height: auto;
+    margin-left: 23vw;
+    margin-top: 5vw;
+}
+
+.home #b1{
+    margin-left: 3.5vw;
+}
+
+
+.up label,.up #upload {
+    color: rgb(8, 8, 8);
+}
+
+.up form {
+    border: 2px solid rgb(14, 14, 14);
+    margin-top: 7vw;
+    margin-bottom: 0vw;
+    margin-right: 50vw;
+    margin-left: 2vw;
+    padding: 2%;
+}
+
+.up div {
+    margin-top: 1%;
+    margin-left: 2vw;
+}
+
