@@ -1,0 +1,45 @@
+.TollUpload{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 10vw;
+    top: 3vw;
+}
+#TollVehNo{
+    position: relative;
+    top: 2vw;
+}
+#TollVehicleNumber{
+    position: relative;
+    top: 2vw;
+    color: rgb(11, 239, 239);
+    text-transform: uppercase;
+}
+#TollUserNo{
+    position: relative;
+    top: 3vw;
+}
+#TollUserMobileNo{
+    position: relative;
+    top: 3vw;
+    color: rgb(11, 239, 239);
+}
+#TollUserMobileNo::-webkit-inner-spin-button
+    {
+        -webkit-appearance: none;
+    }
+#TollUploadTire{
+    position: relative;
+    top: 3vw;
+}
+#TollTireImage{
+    position: relative;
+    top: 4vw;
+}
+#TollSubmit{
+    position: relative;
+    top: 6vw;
+}
+#TollBack{
+    position: relative;
+    top: 8vw;
+}

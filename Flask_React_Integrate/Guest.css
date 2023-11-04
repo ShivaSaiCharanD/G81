@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.Guest{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Poppins",sans-serif;
+}
+
+.Guest div{
+    /* border: 1px solid black; */
+    border-radius: 1vw;
+    width: 27vw;
+    position: relative;
+    top: 12vw;left: 15vw;
+    padding: 3vw;
+    line-height: 1;
+    box-shadow: 1px 1px 15px;
+}
+
+
+.Guest .Guestbt{
+    font-size: 20px;
+    position: relative;
+    
+    left: 1vw;
+}
+.Guest .backb{
+    font-size: 15px;
+    position: relative;
+    top:2vw;   
+}
+

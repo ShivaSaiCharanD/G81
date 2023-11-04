@@ -1,0 +1,50 @@
+body {
+    background-image: url("Untitled (1).png"); /* Escape the backslash */
+    display: flex;
+    
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Add this to hide horizontal overflow */
+}
+
+.Home #title {
+    position: relative;
+    top: 120px;
+    left: 150px;
+    font-family: 'street_credregular';
+    font-size: 4rem;
+}
+
+.Home .options {
+    position: relative;
+    top: 16vw;
+    left: 20vw;
+    line-height: 5;
+}
+
+.Home .option1:hover{
+    transform: scale(1.1);
+}
+.Home .option2:hover{
+    transform: scale(1.1);
+   
+}
+.Home .option1{
+    transition: transform .4s;
+    display: inline;
+}
+.Home .option2{
+    transition: transform .4s;
+    position: relative;
+    top: 6vw;
+    right: 20vw;
+    display: inline;
+}
+
+.Home .gs{
+    width: 20vw;
+    font-size: 20px;
+    background-color: black;
+}

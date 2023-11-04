@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.GuestDetails{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Poppins";
+}
+.GuestDetails h1{
+    font-size: 48px;
+}
+.GuestDetails form{
+
+    position: relative;
+    top:12vw;left:12vw;
+    /* border: 2px solid black; */
+    border-radius: 2vw;
+    padding: 3vw;
+    width: 35vw;
+    box-shadow: 1px 1px 15px;
+
+}
+
+.GuestDetails #vehicleU::placeholder,
+.GuestDetails #mobileNo::placeholder{
+    color: aliceblue;
+}
+.GuestDetails 
+/* #mobileNo::-webkit-outer-spin-button, */
+#mobileNo::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.GuestDetails .back{    
+    position: relative;
+    left: 10vw;
+}
+
+.GuestDetails #vehicleU,
+.GuestDetails #mobileNo{
+    color: aliceblue;
+
+}

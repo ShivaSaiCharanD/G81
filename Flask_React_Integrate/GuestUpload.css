@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.GuestUpload{
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Poppins",sans-serif;
+}
+.GuestUpload form{
+    position: relative;
+    top:12vw;left:15vw;
+    /* border: 2px solid black; */
+    border-radius: 2vw;
+    padding: 3vw;
+    width:480px;
+    box-shadow: 1px 1px 15px;
+
+}
+.GuestUpload form h1{
+    font-size: 64px;
+}
+.GuestUpload .image{
+    position: relative;
+    left: 2vw;
+    font-family: "Poppins";
+}
+
+.GuestUpload .imageSub{
+    display: inline;
+    position: relative;
+    top: 2vw;
+    width: 80px;
+}
+.GuestUpload .back{
+    position: relative;
+    top: 2vw;
+    left: 3vw;
+    width: 6vw;
+}
+.GuestUpload .result {
+ position: relative;
+ top: 20vw;
+}
